@@ -1,15 +1,15 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function ExploreScreen() {
+export default function AudioJournal() {
   return (
     <View style={styles.container}>
-      <Text>Explore Screen</Text>
-      {/* Your explore or library UI here */}
+      <Text style={styles.text}>🎙️ Audio Mode (To be implemented)</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: "center", alignItems: "center" },
+  text: { fontSize: 18 },
 });
